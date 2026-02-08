@@ -16,7 +16,10 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include "keycodes.h"
 #include QMK_KEYBOARD_H
+#include "keymap_spanish.h"
+
 #define ANIM_INVERT false
 #define ANIM_RENDER_WPM true
 #define FAST_TYPE_WPM 45 // Switch to fast animation when over words per minute
@@ -261,7 +264,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         //|--------+--------+--------+--------+--------+--------|
         //|--------+--------+--------+--------+--------+--------|
         RM_TOGG, RM_HUEU, RM_SATU, RM_VALU, QK_MAKE, XXXXXXX, KC_F12, XXXXXXX,
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        XXXXXXX, XXXXXXX, KC_LSFT, KC_LCTL,
         //|--------+--------+--------+--------+--------+--------|
         //|--------+--------+--------+--------+--------+--------|
         RM_NEXT, RM_HUED, RM_SATD, RM_VALD, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,

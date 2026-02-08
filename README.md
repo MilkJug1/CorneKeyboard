@@ -26,9 +26,11 @@ Currently uses:
 
 
 ## TODO/Still Broken
-- One LED (On the actual keyboard) is still a bit messed up, should prob fix that
-- Weird issue where Layouts aren't uploading or saving correctly (Could be an issue with swp files with Neovim and maybe VIA?)
+~~- One LED (On the actual keyboard) is still a bit messed up, should prob fix that~~
+~~- Weird issue where Layouts aren't uploading or saving correctly (Could be an issue with swp files with Neovim and maybe VIA?)~~
 
 - Actually find a way to incorporate using this into gaming better, bit annoying for the moment when playing some games.
-- Others that I can't remember at this moment
+    - Kind of fixed? Have a dedicated Gaming layer at the current moment.
+
+
 
